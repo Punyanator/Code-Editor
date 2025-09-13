@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.textarea{
+    background-color: rgb(64, 7, 56);
+    overflow-x:auto;
+}
+
+
+
+@media screen and (max-width:1000px){
+
+
+    
+}
