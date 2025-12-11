@@ -8,7 +8,7 @@ import { javascript } from "@codemirror/lang-javascript";
 import { html } from "@codemirror/lang-html";
 import { css } from "@codemirror/lang-css";
 
-import {dracula} from "@uiw/codemirror-theme-dracula"
+
 function Textarea({isdragging,setdrag, lang, setjs, setcss, sethtml}){
   const [code, setCode] = useState("// type your code here");;
   const [language, setlanguage] = useState([javascript()]);
@@ -81,7 +81,7 @@ function Textarea({isdragging,setdrag, lang, setjs, setcss, sethtml}){
 },
 });
 
-//chnaging language
+//changing language
 useEffect(() => {
   let note;
   if (lang==="html"){

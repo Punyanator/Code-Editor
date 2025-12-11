@@ -1,6 +1,6 @@
 import { useState } from "react"
 
-function Button({title, setclick,}){
+function SaveFile({title, setclick,}){
 const [filename,setname]= useState("");
 const handlefile = (event)=>setname(event.target.value);
    const styles = {
@@ -9,12 +9,9 @@ const handlefile = (event)=>setname(event.target.value);
             border:"none",
             borderRadius:"20px"
     }
-    const inputstyles = {
-        fontSize:"4rem"
-    }
     return(
     <form id="form" onSubmit={(e)=>{e.preventDefault()}}>
-    <input id="forminput" type="text" value={filename} onChange={handlefile}/>
+    <input placeholder="Input File Name" id="forminput" type="text" value={filename} onChange={handlefile}/>
     <button type="button" style={styles} 
     onClick=
     {()=>{setclick(filename);
@@ -23,4 +20,4 @@ const handlefile = (event)=>setname(event.target.value);
      </form>
     )
 }
-export default Button
+export default SaveFile

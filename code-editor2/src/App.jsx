@@ -1,5 +1,5 @@
 import Button from './button';
-import Button2 from './button2';
+import Button2 from './SaveFile';
 import Textarea from './textarea';
 import Codearea from './codedisplay';
 import { useState } from 'react';
@@ -45,7 +45,7 @@ function App() {
     <Button lang={lang} title="CSS" setclick={()=>{setlang("css")}}/>
     <Button  lang={lang}title="JS" setclick={()=>{setlang("js")}}/>
     </div>
-    <Button2  title="Save File" setclick={saveFile}/>
+    <Button2  title="Download File" setclick={saveFile}/>
     </div>
     <div id="article">
     <Codearea isdragging={isdragging} js={js} html={html} css={css}/>
