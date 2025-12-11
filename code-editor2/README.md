@@ -6,7 +6,7 @@ Features:
 - Syntax highlighting
 - Download code option
 Live-Site Link:  https://punyanator.github.io/Code-Editor/
-GitHub Link:    https://github.com/Punyanator/Code-Editor.git
+    GitHub Link:    https://github.com/Punyanator/Code-Editor.git
 Setup:
 1. Clone repo
 2. npm run dev
